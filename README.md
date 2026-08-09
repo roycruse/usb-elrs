@@ -108,7 +108,32 @@ Connect the ELRS receiver to the XIAO nRF52840 as follows:
 
 ---
 
-## 🚀 Future Enhancements
+## 📦 3D Printed Case & Enclosure Design
 
-- [ ] Design and 3D print a custom protective enclosure.
+A custom 2-part protective enclosure is included in this repository to neatly house both the Seeed Studio XIAO nRF52840 and the ELRS receiver.
+
+### Included CAD & 3D Model Files
+
+| File | Description | Format |
+| :--- | :--- | :---: |
+| [`usb elrs case.f3d`](usb%20elrs%20case.f3d) | Autodesk Fusion 360 Master Parametric CAD File | `.f3d` |
+| [`usb elrs case top.3mf`](usb%20elrs%20case%20top.3mf) | Top Enclosure Cover | `.3mf` |
+| [`usb elrs case bottom.3mf`](usb%20elrs%20case%20bottom.3mf) | Bottom Main Housing Base | `.3mf` |
+
+### 🖨️ Recommended Print Settings
+
+- **Layer Height**: `0.16mm` or `0.20mm`
+- **Infill**: `15% – 20%` (Gyroid or Grid)
+- **Material**: PLA, PETG, or ABS/ASA
+- **Supports**: None needed when printed flat on the bed
+
+---
+
+## 🚀 Project Status & Roadmap
+
+- [x] High-speed 1ms USB HID joystick code for Seeed XIAO nRF52840
+- [x] Full CRSF 14-channel stick, slider & switch mapping
+- [x] Hardware register timing overrides for 420k baud CRSF
+- [x] Custom 3D-printed protective enclosure (`.f3d` CAD source & `.3mf` models)
+
 
